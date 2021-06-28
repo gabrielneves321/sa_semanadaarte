@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Museu da Arte</title>
+    <link rel="stylesheet" th:href="@{/bootstrap-5.0.0/css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{/fontawesome-5.15.3/css/all.css}">
+    <link rel="stylesheet" th:href="@{/css/estilo.css}">
+</head>
+<body>
+
+
+<header><img th:src="@{./img/logo.jpg}" alt=""></header>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" th:href="@{/}">Principal</a>
+                <a class="nav-link active" th:href="@{/artigos}">Sobre os Artigos</a>
+                <a class="nav-link active" th:href="@{/proposta}">Registro de Visitantes</a>
+
+            </div>
+        </div>
+    </div>
+</nav>
+    <div class="div-governo">
+<h1>Descrição:"O desgoverno"</h1>
+<p>“O desgoverno” é uma obra pop art criada a partir de montagens, desenhos e colagens no Photoshop que tem como intuito criticar
+    o atual “desgoverno” do país, de uma forma sutil porém direta temos a imagem da morte que representa o governo e sua foice que
+    tem a imagem do Brasil sangrando neste terrível momento em que estamos passando.
+
+    #PraCegoVer: Uma imagem com uma figura satirizada da morte e sua foice em Azul, Verde, Preto, Amarelo e rosa. Ao
+    fundo temos uma imagem colorida desfocada em pop art.
+</p>
+    </div>
+
+    <div class="div-governo">
+<h1>Descrição:"Não entrem em pânico"</h1>
+<p>“Não entrem em pânico” é uma obra com o mesmo conceito porém com técnicas diferentes, misturamos um pouco da antiga pop art com a arte urbana, nesta obra utilizamos o photoshop e o illustrator. em “não entrem em pânico" utilizamos uma frase e uma cena fortemente criticadas
+    que foram produzidas pelo atual presidente da república.
+
+    #PraCegoVer: Uma imagem que tem um muro grafitado, uma pop art centralizada em Vermelho, azul, amarelo e verde. o grafite centralizado contém a imagem do atual Presidente da república com uma máscara em seus
+    olhos dizendo a seguinte frase “ Não entrem em pânico".
+</p>
+    </div>
+
+<div class="main">
+    <center>
+        <img src='img/bozo3.jpeg'> </img>
+    </center>
+</div>
+
+<br><br><br><br>
+
+
+<footer class ="footer-color">
+    <ul class= "footer-ul" >
+        <li>Museu da Arte</li>
+        <li >Contribuintes: Gabriel N;João F;Matheus S;Yan C.</li>
+    </ul>
+</footer>
+
+<script th:src="@{/js/jquery-3.6.0.min.js/}"></script>
+<script th:src="@{/js/popper.min.js}"></script>
+<script th:src="@{/bootstrap-5.0.0/js/bootstrap.min.js}"></script>
+
+</div>
+</body>
+</html>
